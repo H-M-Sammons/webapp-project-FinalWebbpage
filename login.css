@@ -1,0 +1,202 @@
+
+/*
+all of the .naveHead was inspired by
+https://www.youtube.com/watch?v=oYRda7UtuhA-
+ */
+.naveHead{
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 70px;
+    float: right;
+
+}
+.naveHead li{
+    list-style: none;
+    display: inline-block;
+}
+.naveHead li a{
+    /*
+    this is the text color
+     */
+    color: darkred;
+    margin: 5px 10px;
+    width: 50px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(175, 238, 238, 0.55);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+
+    animation-name:test;
+
+    transition: 0.2s;
+
+}
+.naveHead li a:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+/*
+sets up what the words next to the boxes look like
+ */
+h1{
+    font-family: Verdana;
+    color: darkred;
+}
+#pwd{
+    font-family: Verdana;
+    color: firebrick;
+}
+#UserName{
+    font-family: Verdana;
+    color: firebrick;
+
+}
+label{
+    font-family: Verdana;
+    color: darkred;
+}
+/*
+making the submit button look nice
+ */
+#submit{
+    display:inline-block;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+    border: #0d0594;
+
+
+    background-color: rgb(232, 8, 14);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+/*
+this is the action that happens when you hover over the submit button
+ */
+#submit:hover{
+    background-color: #0d0594;
+    color: white;
+}
+/*
+this is the button for if you do not have an account
+ */
+#notAUser{
+    display:inline-block;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+
+
+border-color: #e8080e;
+
+    color: darkred;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/*
+this is the hover action
+ */
+#notAUser:hover{
+    background-color: #0d0594;
+    color: white;
+    border-color: #0d0594;
+}
+/*
+this sets up the gray box that holds all of the login paswards and stuff
+ */
+.loginBox{
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+
+    border-radius: 10px;
+    background: rgba(13, 5, 148, 0.15);
+    position: relative;
+    top: 70px;
+}
+#login{
+
+}
+
+
+.navfoot{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 70px;
+
+}
+.navfoot li{
+    list-style: none;
+    display: inline-block;
+}
+.navfoot li a{
+    /*
+    this is the text color
+     */
+    color: darkred;
+    margin: 5px 10px;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(175, 238, 238, 0.55);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+
+    animation-name:test;
+
+    transition: 0.2s;
+
+}
+.navfoot li a:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    height: 150px;
+    background-color: rgba(47, 79, 79, 0.26);
+}
+#aboutTerms{
+    position: relative;
+
+    font-size: 8px;
+    text-align: center;
+
+}
+h2{
+    position: relative;
+    top: 10px;
+}
+
+#logo{
+    height: 70px;
+    width: 90px;
+    padding: 1px;
+    display: inline-block;
+    float: left;
+
+    margin-left: 5px;
+
+
+}
+#companyName{
+    margin-right: 0px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: black;
+
+
+}

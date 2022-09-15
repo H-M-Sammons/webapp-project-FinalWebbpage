@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This is important stuff that tells you what the page does and needs to function-->
+    <!-- This whole sight is bassed off of several major tax company websites-->
+    <meta charset="UTF-8">
+    <title>Admin controls</title>
+    <meta name="description" content="3135 Activity">
+
+    <!--this links the css to the html-->
+    <link rel="stylesheet" type="text/css" href="adminPage.css">
+    <!--links the script for the page-->
+    <script src="adminPage.js"></script>
+    <link rel="stylesheet" href="jstuff/jquery-ui.css">
+    <link rel="stylesheet" href="jstuff/jquery-ui.min.css">
+    <link rel="stylesheet" href="jstuff/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jstuff/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="jstuff/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jstuff/jquery-ui.structure.min.css">
+
+
+
+
+    <script src="jstuff/jquery-ui.js"></script>
+    <script src="jstuff/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <script>
+        $( function() {
+            $( "#menu" ).menu();
+        } );
+    </script>
+    <style>
+        .ui-menu { width: 150px; }
+    </style>
+
+</head>
+<body>
+<header class="header">
+    <!-- this navagation was inspred by this youTube totorial-->
+    <!--https://www.youtube.com/watch?v=oYRda7UtuhA-->
+    <nav class="naveHead">
+        <ul>
+            <!--These are the links for the nave header-->
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="login.html"> Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- <input type = "button" value="login" name="login" id="login"/-->
+    <!--This image is the temp logo till I actuly make one-->
+    <img src="salmion.png" alt="salmin" id="logo" alt="picture of a fish">
+    <h1 id="companyName"> Sammons <br>TaxPrep</h1>
+
+
+
+</header>
+<main>
+
+    <br>
+    <br>
+<h2> Welcome back! Remember to be a productive employee! </h2>
+
+    <br>
+    <br>
+<h3>Pick a client:</h3>
+    <ul id="menu">
+
+        <li>
+            <div>Bob</div>
+            <ul>
+                <li>
+                    <div>View documents</div>
+                </li>
+                <li>
+                    <div>start return</div>
+                </li>
+                <li>
+                    <div>submit return</div>
+                </li>
+                <li>
+                    <div>suspend account</div>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <div>Tom</div>
+            <ul>
+                <li>
+                    <div>View documents</div>
+                </li>
+                <li>
+                    <div>start return</div>
+                </li>
+                <li>
+                    <div>submit return</div>
+                </li>
+                <li>
+                    <div>suspend account</div>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <div>Grace</div>
+            <ul>
+                <li>
+                    <div>View documents</div>
+                </li>
+                <li>
+                    <div>start return</div>
+                </li>
+                <li>
+                    <div>submit return</div>
+                </li>
+                <li>
+                    <div>suspend account</div>
+                </li>
+            </ul>
+
+        </li>
+    </ul>
+
+
+
+
+    <br>
+    <br>
+    <!--This should link to Gmail-->
+    <input type="button" id="notAUser" value="Email" onclick="location.href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwikx7CCkfv2AhX6oWoFHf__D4AQFnoECBMQAQ&url=https%3A%2F%2Fwww.google.com%2Fgmail%2F&usg=AOvVaw3mZ_qbD_gQyp_sqkjrwStn'">
+
+</main>
+</body>
+</html>

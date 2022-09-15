@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This is important stuff that tells you what the page does and needs to function-->
+    <!-- This whole sight is bassed off of several major tax company websites-->
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <meta name="description" content="3135 Activity">
+
+    <!--this links the css to the html-->
+    <link rel="stylesheet" type="text/css" href="useraccount.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
+            integrity="sha384-BnFYVbw3PHhz5qWXTCSL12MjPc3KxjdKPx7R4R5JjIzxFmYX267NDyJ9B/nZANdg"
+            crossorigin="anonymous">
+    </script>
+
+<script src="jstuff/jquery.click-firewords.js"></script>
+
+    <!--links the script for the page-->
+    <script src="documentUpload.js"></script>
+
+
+
+
+
+
+    </head>
+<body>
+    <header class="header">
+        <!-- this navagation was inspred by this youTube totorial-->
+        <!--https://www.youtube.com/watch?v=oYRda7UtuhA-->
+        <nav class="naveHead">
+            <ul>
+                <!--These are the links for the nave header-->
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+                <li><a href="login.html"> Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- <input type = "button" value="login" name="login" id="login"/-->
+        <!--This image is the temp logo till I actuly make one-->
+        <img src="salmion.png" alt="salmin" id="logo">
+        <h1 id="companyName"> Sammons <br>TaxPrep</h1>
+
+        </header>
+
+    <br>
+    <br>
+    <br>
+
+<h2> Your Documents were uploaded</h2>
+
+    <button class="btn" id="back-button" onclick="">Back to your account</button>
+    <script>
+    $(function () {
+    $('button').clickFireworks({
+
+    // canvas id
+    id: 'fireworks',
+    // append canvas to where, default is body
+    appendTo: 'body',
+    // canvas z-index, make it higher than anything on the page
+    zIndex: 1000
+    });
+    });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+[
+	{
+		"name": "AL",
+      "code": 1
+    },
+  {
+    "name": "AK",
+    "code": 2
+  },
+  {
+    "name": "AZ",
+    "code":3
+  },
+  {
+    "name": "AR",
+    "code":4
+  },
+  {
+    "name": "CA",
+    "code":5
+  },
+  {
+    "name": "CO",
+    "code":6
+  },
+  {
+    "name": "CT",
+    "code":7
+
+  },
+  {
+    "name": "DE",
+    "code":8
+  },{
+    "name": "FL",
+    "code":9
+  },
+  {
+    "name": "GA",
+    "code":10
+  },
+  {
+    "name": "HI",
+    "code":11
+  },
+  {
+    "name": "ID",
+    "code":12
+  },{
+    "name": "IL",
+    "code":13
+  },
+  {
+    "name": "IN",
+    "code":14
+  },
+  {
+    "name": "IA",
+    "code":15
+  },
+  {
+    "name": "KS",
+    "code":16
+  },{
+    "name": "KY",
+    "code":17
+  },
+  {
+    "name": "LA",
+    "code":18
+  },
+  {
+    "name": "ME",
+    "code":19
+  },
+  {
+    "name": "MD",
+    "code":20
+  },{
+    "name": "MA",
+    "code":21
+  },
+  {
+    "name": "MI",
+    "code":22
+  },
+  {
+    "name": "MN",
+    "code":23
+  },
+  {
+    "name": "MS",
+    "code":24
+  },{
+    "name": "MO",
+    "code":25
+  },
+  {
+    "name": "MT",
+    "code":26
+  },
+  {
+    "name": "NE",
+    "code":27
+  },
+  {
+    "name": "NV",
+    "code":28
+  },{
+    "name": "NH",
+    "code":29
+  },
+  {
+    "name": "NJ",
+    "code":30
+  },
+  {
+    "name": "NM",
+    "code":31
+  },
+  {
+    "name": "NY",
+    "code":32
+  },{
+    "name": "NC",
+    "code":33
+  },
+  {
+    "name": "ND",
+    "code":34
+  },
+  {
+    "name": "OH",
+    "code":35
+  },
+  {
+    "name": "OK",
+    "code":36
+  }
+]

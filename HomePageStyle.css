@@ -1,0 +1,232 @@
+.header{
+
+}
+/*
+This sets up the look of the body
+ */
+body{
+    font-family: Verdana;
+    color: black;
+}
+h2{
+  font-size: 50px;
+}
+/*
+everything has relative positioning because I wannted to control the spacings of the words
+ */
+#haveSomeOne{
+    position: relative;
+ top: -60px;
+    text-align: center;
+    color: black;
+}
+#whyHelp{
+    position: relative;
+    text-align: center;
+    color: black;
+
+    top: -110px;
+    left: 65px;
+
+    font-size: 20px;
+}
+#wrightup{
+    text-align: center;
+    top: -90px;
+    font-size: 20px;
+    position: relative;
+
+    left: 20px;
+    color: darkblue;
+
+}
+#electronicly{
+    text-align: center;
+    top: -120px;
+    font-size: 15px;
+    position: relative;
+
+    left: 50px;
+    color: darkblue;
+}
+#logo{
+   height: 70px;
+    width: 90px;
+    padding: 1px;
+    display: inline-block;
+    float: left;
+
+    margin-left: 5px;
+
+    
+}
+#companyName{
+margin-right: 0px;
+    font-size: 20px;
+
+
+}
+ /*this navagation was inspred by this youTube totorial-->
+<!--https://www.youtube.com/watch?v=oYRda7UtuhA-->
+  */
+/*
+This first bit sets up the psition of the header
+ */
+.naveHead{
+
+     align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 70px;
+    float: right;
+
+}
+/*
+setting up how the list is layed out
+ */
+.naveHead li{
+    list-style: none;
+    display: inline-block;
+}
+/*
+This affects how to words look
+ */
+.naveHead li a{
+    /*
+    this is the text color
+     */
+    color: darkred;
+    margin: 5px 10px;
+    width: 50px;
+    height: 80px;
+    padding: 15px;
+    /*
+    makes things curvy
+     */
+    border-radius: 25px;
+    background-color: rgba(175, 238, 238, 0.55);
+    /*
+    removes the underling of the word
+     */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+
+    animation-name:test;
+
+    transition: 0.2s;
+
+}
+/*
+this is the color the box changes to when the curse is over it
+ */
+.naveHead li a:hover{
+    background-color: darksalmon;
+    color: white;
+}
+/*
+This sets up the look for the buttons
+ */
+#connectUS{
+    display:inline-block;
+    padding: 40px;
+    border: firebrick;
+
+
+    background-color: #e8080e;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+    top: -120px;
+    left: 30%;
+
+
+}
+#extrabutton{
+    display:inline-block;
+    padding: 40px;
+    border-width: medium;
+    border-color: #e8080e;
+
+    background-color: #ffffff;
+    color: #e8080e;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+    top: -120px;
+    left: 30%;
+}
+/*
+this is only the positining for the text
+ */
+#suport{
+    position: relative;
+    top: -100px;
+    width: 100%;
+}
+
+
+
+
+#h3p2{
+    position: relative;
+    top: 40px;
+}
+/*
+The footer is copied and pasted from the header
+ */
+
+.navfoot{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 70px;
+
+}
+.navfoot li{
+    list-style: none;
+    display: inline-block;
+}
+.navfoot li a{
+    /*
+    this is the text color
+     */
+    color: darkred;
+    margin: 5px 10px;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(175, 238, 238, 0.55);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+
+    animation-name:test;
+
+    transition: 0.2s;
+
+}
+.navfoot li a:hover{
+    background-color: darksalmon;
+    color: white;
+}
+/*
+this is the gray box of the footer
+ */
+footer{
+    position: relative;
+    top: -120px;
+    height: 200px;
+
+   background-color: rgba(47, 79, 79, 0.26);
+}
+#aboutTerms{
+    font-size: 8px;
+    text-align: center;
+}

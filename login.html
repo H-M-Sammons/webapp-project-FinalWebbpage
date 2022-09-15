@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Sammons TaxPrep Login</title>
+    <meta name="description" content="3135 Activity">
+
+    <!--this links the css to the html-->
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <!--links the script for the page-->
+    <script src="login.js"></script>
+</head>
+<body>
+<header class="header">
+    <!-- this navagation was inspred by this youTube totorial-->
+    <!--https://www.youtube.com/watch?v=oYRda7UtuhA-->
+    <nav class="naveHead">
+        <ul>
+
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="login.html"> Login</a></li>
+        </ul>
+
+    </nav>
+    <!-- <input type = "button" value="login" name="login" id="login"/-->
+    <!--This image is the temp logo till I actuly make one-->
+    <img src="salmion.png" alt="salmin" id="logo">
+    <h1 id="companyName"> Sammons <br>TaxPrep</h1>
+
+</header>
+<main>
+    <!-- this creates the foundation for the login box-->
+<div class = "loginBox">
+    <h1 id="login"> Login </h1>
+    <label for="UserName">Username: <br></label>
+    <input type="text" id="UserName">
+<br>
+
+    <label for="pwd"> Password: <br></label>
+    <input type="password" id="pwd" name="pwd">
+<br>
+    <!-- this button actuly works and send input to my javascript doc to see if you can to login :)-->
+    <input type="submit" value="Submit" id="submit">
+    <br>
+    <input type="button" id="notAUser" value="Don't have an account?">
+</div>
+</main>
+
+
+
+<footer>
+
+<!-- This is taken from like 4 other pages-->
+    <p><br>
+    </p>
+    <nav class="navfoot">
+        <ul>
+            <li> <a href="about.html">About US</a></li>
+            <li><a href="termsOfService.html">Terms of service</a></li>
+            <li><a href="https://validator.w3.org">Validate HTML</a></li>
+            <li><a href="https://jigsaw.w3.org/css-validator">Validate CSS</a></li>
+
+        </ul>
+    </nav>
+    <p id="aboutTerms"> <br><br> Terms and conditions apply    Copyright © Sammons TaxPrep     </p>
+
+</footer>
+
+</body>
+</html>

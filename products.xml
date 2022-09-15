@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<management>
+	<Products>
+		<name>Basic</name>
+		<bio> you'll get on-
+            demand access to real tax experts for unlimited advice, answers, and a final review to
+            make sure your taxes are done right with every dollar you deserve, guaranteed.</bio>
+	</Products>
+
+	<Products>
+		<name>Mediocre</name>
+		<bio> You get what you paid for.</bio>
+	</Products>
+    <Products>
+        <name>Premium</name>
+        <bio> Designed for all levels of investing, whether you trade casually or have a large, diversified portfolio. TurboTax Premier searches for more than 450 tax deductions, to make sure you get every credit and deduction you qualify for. Automatically import thousands of transactions from your financial institutions to get started. </bio>
+    </Products>
+</management>

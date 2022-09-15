@@ -1,0 +1,174 @@
+#UploadDocument{
+    display:inline-block;
+    padding: 40px;
+    border: firebrick;
+
+
+    background-color: #e8080e;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+    left: 5%;
+
+
+
+}
+#filename{
+    display:inline-block;
+    padding: 15px;
+    border: firebrick;
+
+
+    background-color: #e8080e;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+
+
+
+}
+#back-button{
+    display:inline-block;
+    padding: 20px;
+    border-width: medium;
+    border-color: #e8080e;
+
+    background-color: #ffffff;
+    color: #e8080e;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+
+    left: 30%;
+
+}
+#jquery-upload-button{
+    display:inline-block;
+    padding: 20px;
+    border-width: medium;
+    border-color: #e8080e;
+
+    background-color: #ffffff;
+    color: #e8080e;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+
+}
+#UpdateInfo{
+    display:inline-block;
+    padding: 40px;
+    border-width: medium;
+    border-color: #e8080e;
+
+    background-color: #ffffff;
+    color: #e8080e;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+    left: 5%;
+
+}
+#productLook{
+    display:inline-block;
+    padding: 40px;
+    border: firebrick;
+
+
+    background-color: #e8080e;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-size: 20px;
+
+    margin: 30px;
+    position: relative;
+    left: 5%;
+
+
+}
+
+.naveHead{
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 70px;
+    float: right;
+
+}
+.naveHead li{
+    list-style: none;
+    display: inline-block;
+}
+.naveHead li a{
+    /*
+    this is the text color
+     */
+    color: darkred;
+    margin: 5px 10px;
+    width: 50px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(175, 238, 238, 0.55);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+
+    animation-name:test;
+
+    transition: 0.2s;
+
+}
+.naveHead li a:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+#logo{
+    height: 70px;
+    width: 90px;
+    padding: 1px;
+    display: inline-block;
+    float: left;
+
+    margin-left: 5px;
+
+
+}
+#companyName{
+    margin-right: 0px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: black;
+
+
+}
+h2{
+    margin: 30px;
+    position: relative;
+    font-size: 50px;
+    left: 10%;
+}
+progress{
+
+    position: relative;
+    left: 10%;
+}
+h3{
+    position: relative;
+    left: 10%;
+}
+
